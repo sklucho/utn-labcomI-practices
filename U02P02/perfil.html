@@ -8,26 +8,27 @@
 </head>
 <body>
     <h1 style="background-color:aquamarine">Complete con sus datos personales</h1>
+    
     <form>
         <fieldset>
-            <legend>Datos</legend>
+            <legend><strong>Datos</strong></legend>
             <label for="estudiante">Condicion</label>
             <input type="text" name="estudiante" id="estudiante" value="Estudiante" readonly><br><br>
 
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo">
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
 
             <label for="apellido">Apellido</label>
-            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"><br><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required><br><br>
             
             <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Ingrese su email">
+            <input type="text" id="email" name="email" placeholder="Ingrese su email" required>
 
             <label for="edad">Edad</label>
-            <input type="number" id="edad" name="edad" placeholder="Ingrese su edad"><br><br>
+            <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required><br><br>
 
             <label for="nacionalidad">Nacionalidad</label>
-            <select name="seleccionable" id="seleccionable">
+            <select name="seleccionable" id="seleccionable" required>
                 <option value="--"> -- </option>
                 <option value="Argentina">Argentina</option>
                 <option value="Uruguay">Uruguay</option>
@@ -40,7 +41,7 @@
             </select>
 
             <label for="condicionlab">Condicion Laboral</label>
-            <select name="condicionlab" id="condicionlab">
+            <select name="condicionlab" id="condicionlab" required>
                 <option value="--"> -- </option>
                 <option value="Desemplelado">Desemplelado</option> 
                 <option value="En busqueda laboral">En busqueda laboral</option>
@@ -50,6 +51,29 @@
                 
 
         </fieldset>
+    
+        <fieldset>
+            <legend><strong>Gustos personales</strong></legend>
+            <label for="musica">Musica favorita</label>
+            <input type="text" name="musica" id="musica" required>
+
+            <label for="comidas">Comidas preferidas</label>
+            <select name="comidas" id="comidas">
+                <option value="vacio"> -- </option>
+                <option value="milanga">Milanga</option>
+                <option value="hamburguesa">Hamburguesa</option>
+                <option value="asado">Asado</option>
+                <option value="sushi">Sushi</option>
+            </select>
+        </fieldset><br>
+
+        <input type="submit" value="Enviar"><br><br>
+
+        <label for="checkbx"><strong>Guardar informacion ingresada</strong></label>
+        <input type="checkbox" name="checkbx"   id="checkbx">
+   
     </form>
+
+    
 </body>
 </html>
