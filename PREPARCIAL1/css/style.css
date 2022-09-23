@@ -1,0 +1,71 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+header nav,
+ul li {
+    background-color: rgba(226, 226, 226, 0.808);
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    padding: 5px;
+    margin-left: 100px;
+}
+
+header {
+    background-color: rgba(214, 214, 214, 0.8);
+    box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 1);
+    margin-left: -7px;
+    margin-top: -6px;
+    margin-right: -7px;
+}
+
+.profile {
+    float: right;
+    padding-top: 12px;
+    padding-right: 15px;
+}
+
+.profile a:visited {
+    color: rgb(51, 51, 51);
+}
+
+li a:hover {
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.img-background {
+    padding-left: 100px;
+    padding-top: 200px;
+    background-image: url(utn-alumnos.jpg);
+    width: 800px;
+    height: 200px;
+    margin-left: -10px;
+    margin-top: -18px;
+    float: left;
+
+
+}
+
+.img-background h1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.img-content p {
+    font-size: larger;
+
+    margin-left: 920px;
+    border: 120px solid #ffffff;
+}
