@@ -8,7 +8,7 @@ ul li {
     background-color: rgba(226, 226, 226, 0.808);
     display: inline-flex;
     justify-content: space-between;
-
+    padding-top: 3px;
 }
 
 ul li a {
@@ -30,7 +30,7 @@ header {
 
 .profile {
     float: right;
-    padding-top: 12px;
+    padding-top: 20px;
     padding-right: 15px;
 }
 
@@ -65,7 +65,10 @@ li a:hover {
 
 .img-content p {
     font-size: larger;
-
     margin-left: 920px;
     border: 120px solid #ffffff;
+}
+
+.logo{
+    padding: 10px;
 }
